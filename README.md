@@ -1,8 +1,35 @@
 # random-prompt
 Code and supplementary document for paper [Prompt Optimisation with Random Sampling](https://arxiv.org/abs/2311.09569)
 
-While we clean the codebase, you can take a look at the core implementation for generating random separators in less than 10 lines of code.
+Most up-to-date version [Strings from the Library of Babel: Random Sampling as a Strong Baseline for Prompt Optimisation](https://aclanthology.org/2024.naacl-long.122)
 
+## References
+
+If you use this repository in your research, please cite [our paper](https://aclanthology.org/2024.naacl-long.122): 
+```bibtex
+@inproceedings{lu-etal-2024-strings,
+    title = "Strings from the Library of Babel: Random Sampling as a Strong Baseline for Prompt Optimisation",
+    author = "Lu, Yao  and
+      Wang, Jiayi  and
+      Tang, Raphael  and
+      Riedel, Sebastian  and
+      Stenetorp, Pontus",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.122",
+    pages = "2221--2231",
+}
+```
+
+
+## Implementation from scratch
+Want to implement from scratch? You can take a look at the core implementation for generating random separators in less than 10 lines of code.
 
 1. Random vocabulary mode
 ```
