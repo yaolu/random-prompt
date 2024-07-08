@@ -1,0 +1,770 @@
+[
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate names for a list of dishes given some ingredients.\nIngredients: Pesto, Penne, Cheese",
+    "output": "- Cheesy Pesto Penne\n- Penne with Creamy Pesto Sauce\n- Pesto Penne Bake\n- Parmesan Pesto Penne\n- Baked Pesto Penne with Cheese",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "What does this article suggest about the role of technology in the environment?\nArticle Title: Technology and the Environment \n\nArticle Content:\nTechnology has had an enormous impact on our environment, both global and local. The development of science and engineering has allowed our global population to flourish. But this progress has come with significant cost. Advances in transportation and industry have led to significant carbon emissions and other pollutants that have changed our climate, air, and water quality. We must learn to develop better, more efficient technologies that can reduce our environmental impact while still enabling humanity to grow and prosper.",
+    "output": "This article suggests that technology has had a major impact on our environment and that we need to develop more efficient technologies that reduce environmental impact in order for humanity to continue to grow and prosper. It suggests that advances in technology have led to increased pollution and that we need to find sustainable solutions that balance technological progress with environmental protection.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Classify the following utterance into one of the following categories: inquiry, request, or compliment.\nThis app is really easy to use!",
+    "output": "Compliment",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a recommendation for someone looking to buy a laptop.",
+    "output": "If you're looking for a new laptop, I would recommend considering an Ultrabook. Ultrabooks are lightweight, powerful, reliable, and come with a variety of features. You can find a great Ultrabook to fit your budget and needs.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Brainstorm 5 possible causes of a car accident",
+    "output": "1. Distracted driving \n2. Speeding \n3. Reckless driving \n4. Bad weather conditions \n5. Poorly maintained vehicle",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Given the given text, identify the writer's opinion.\nThe new law passed by the government has caused much controversy as it seems to infringe on civil liberties.",
+    "output": "The writer's opinion is that the new law passed by the government is infringing on civil liberties.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Construct a 10-step program for teaching a kindergardener how to tie their own shoes.",
+    "output": "1. Place the shoe laces on the ground in a cross shape.\n2. Take one lace and put it over the other lace.\n3. Take the upper lace and wrap it around the bottom lace twice.\n4. Take the end of the upper lace and pull it through the middle of the two loops.\n5. Pull both laces tight.\n6. Take the lower lace and make 2 loops.\n7. Place one loop over the other.\n8. Take the end of the lower lace and insert it into the middle of the two loops.\n9. Pull both laces tight.\n10. Sliding the loops up the laces until they reach the top of the shoe.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write an ad for a new food delivery service",
+    "output": "Tired of the same take-out options? Looking for something new and delicious? Try New Food Delivery, the perfect solution for all your eating needs! We offer a wide range of food from restaurants around town, delivered straight to your door in a matter of minutes. With our selection of fresh, delicious, and high-quality meals, you'll never have to worry about a boring dinner again.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Which type of emotion is generally expressed in the following lyrics?\n\"We just want the good life\nNo we won't compromise\"",
+    "output": "The lyrics express a feeling of determination and optimism.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Paraphrase the following sentence\nThe scientists conducted a rigorous experiment",
+    "output": "The scientists ran a thorough experiment.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Summarize this article, highlighting the main points using no more than 100 words\nhttps://www.exploratorium.edu/science-of-music/what-sound",
+    "output": "Sound is created when an object moves back and forth quickly, vibrates, and causes the air around it to move back and forth, creating a pressure wave. Human ears detect sound through the vibrations of waves in the air and the vibrating eardrum. The frequency of sound waves affects the pitch, while the amplitude determines the loudness, or volume. Humans can hear sound frequencies within a range of 20 Hertz to 20,000 Hertz. Instruments, such as guitars and trumpets, create sound through vibrations and can be tuned and manipulated to create different notes.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Come up with a step-by-step guide for setting up a website.",
+    "output": "Step-by-Step Guide for Setting Up a Website:\n1. Choose a web hosting provider.\n2. Select a domain name.\n3. Create your website content.\n4. Register and configure a hosting plan.\n5. Install and configure a content management system (CMS).\n6. Design the layout and add content to your website.\n7. Test your website and set up analytics. \n8. Launch your website.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Please suggest two examples of animals that fly.",
+    "output": "Birds, bats.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a Python script to parse a large tabular datafile.",
+    "output": "\"\"\"\nWrite a python script to parse a large tabular data file.\n\"\"\"\n\nimport pandas as pd\n\ndef parse_datafile(file_name):\n    df = pd.read_csv(file_name, sep='\\t', engine='python')\n    return df\n\nif __name__ == '__main__':\n    print(parse_datafile(\"data.txt\"))",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a comparison of iPhone and Android phone.",
+    "output": "IPhones are known for the sleek design and software integration, while Androids are known for their customizability and the ability to mod and root the device. IPhone hardware tends to be more expensive, while Android phones offer a range of prices depending on the features you want. IPhone users have access to the Apple App Store, while Android users have access to the Google Play Store and other Android-specific app stores. Additionally, IPhone users must use iTunes for media management, while Android users can use their PC or cloud services.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe what the stock market is and how it works.",
+    "output": "The stock market is a platform where businesses and investors can buy and sell shares in publicly listed companies. It works by allowing investors to purchase shares from the companies and then selling them on to other investors or back to the companies. The price of the shares are determined by supply and demand, and fluctuate based on market conditions.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Replace the following phrase with a synonym: very good",
+    "output": "Excellent.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Given a company, come up with a tagline for it.\nGoogle",
+    "output": "\"Go Beyond with Google.\"",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate 5 tips that can help improve one's focus.",
+    "output": "1. Get organized and create a realistic daily agenda.\n2. Break tasks down into smaller, manageable chunks.\n3. Take regular breaks throughout the day.\n4. Eliminate distractions and focus on one task at a time.\n5. Manage your energy levels by eating healthy and getting enough sleep.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Explain what Heraclitus meant by \"You can never step in the same river twice\".",
+    "output": "Heraclitus was trying to illustrate how change is constant and unavoidable. He meant that the same river will never be the same from one moment to the next, because it is always changing. The water, the environment, and the banks all change, so you are never stepping in the exact same river with each step. In this way, life is always in flux and one must remain open to change and growth.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Provide an example of a situation where a barrier to entry prevents competition.",
+    "output": "An example of a barrier to entry that prevents competition is when a company owns exclusive patents or intellectual property. This prevents other companies from entering the market or from creating a competing product.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe the process for getting a driver's license in Canada.",
+    "output": "In order to get a driver's license in Canada, you will first need to complete a driver's education program, such as a drivers permit course. After you have done this, you will be able to register for the written and practical driving tests, which you must pass in order to get your driver's license. To prepare for the tests, you should study the provincial driving regulations and practice driving on a quiet road or an empty parking lot. After you have passed the written and practical tests, you will receive your driver's license and be able to legally drive in Canada.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Name five common characteristics of a rose flower.",
+    "output": "Five common characteristics of a rose flower are: \n1. The petals have a serrated edge and a velvet texture. \n2. Most roses have five petals, though there can be more or less. \n3. The color and shape of the flower can vary greatly, ranging from white to yellow to deep red.\n4. The fragrant smell of the rose is due to an oil called attar of roses. \n5. The flower has bushy foliage of prickly thorns surrounding it.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Develop an algorithm to solve a Rubik's cube in the fewest moves possible.",
+    "output": "There is no known single algorithm for solving a Rubik's Cube in the fewest moves possible, however there are various algorithms that are used to simplify the task. These algorithms are formed of combinatorics, theories and heuristics, tree search and pattern databases, and apply to all cube sizes. One example algorithm is the Beginner\u2019s Method, which involves solving a Rubik\u2019s Cube through a series of algorithms that determine which face should be manipulated at each turn, ultimately resulting in a completed cube.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Classify this sentence as either true or false: \u201cMount Everest is the tallest mountain on Earth.\"",
+    "output": "True.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate 3-6 numbers between 10-100.\n<no input>",
+    "output": "16, 56, 85, 97, 23, 68",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a list of 10 countries",
+    "output": "A list of 10 countries include United States, Canada, Japan, China, India, France, Germany, Italy, Brazil and Mexico.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a call to action for a blog post about the power of positive thinking.",
+    "output": "Take some time today to actively work on changing your thinking patterns. Make a conscious effort to seek out positive people and ideas and let these inspire you to think positively about yourself and your future. By taking these small steps, you will discover the power of positive thinking!",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Come up with three potential strategies for scaling the company faster.",
+    "output": "1. Automate and optimize processes: Utilize technology and automation to reduce costs and streamline internal operations.\n2. Expand customer base: Target new customers and markets by building effective sales and marketing strategies.\n3. Cross-sell products: Leverage existing customers by offering complementary products and services.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe an environmental issue that has been in the news recently and explain why it is important.",
+    "output": "An environmental issue that has been in the news recently is the melting of the Arctic sea ice. The melting of the Arctic sea ice is a huge problem because it affects global temperatures, weather patterns, and ocean levels. It also can lead to the death of many species that live in or near the Arctic, such as polar bears, seals, and walruses. Since this is a global issue, it is important that every country takes part in understanding and mitigating the effects of Arctic sea ice melting.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Summarize the recent development in the field of automated driving.",
+    "output": "Recent advances in automated driving technologies have enabled vehicles to be driven autonomously in a wide range of scenarios. This includes highway driving, urban and rural settings, and even indoors. Automated technologies have improved vehicle safety, enabling vehicles to detect and respond to potential threats faster than a human driver. These technologies have also reduced the workload of drivers and improved the driving experience by reducing fatigue. Automated driving systems are making increasingly more decisions on their own with the help of artificial intelligence and deep learning techniques. Automated driving systems are also able to operate in dangerous or unpredictable conditions, such as poor visibility or severe weather. Furthermore, they can also increase the efficiency and level of comfort of roadway travel. The development of automated driving technologies has tremendous potential to revolutionize the way we travel.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Construct a timeline that shows the progression of events in the given text.\nJohn got accepted to the university, enrolled in courses, and graduated with honors.",
+    "output": "John's educational timeline:\n- Got accepted to the university \n- Enrolled in courses \n- Graduated with honors",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "How can you use a magnifying glass?",
+    "output": "A magnifying glass can be used to see small objects in greater detail or to start a fire by focusing sunlight.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Explain the relationship between biodiversity and climate change.",
+    "output": "Biodiversity and climate change are closely linked. A change in the climate can cause changes in the ecosystems and habitats which can impact biodiversity. The loss of biodiversity, which includes the loss of animal and plant species, can result in a decrease in the ability of ecosystems to adapt to changes in the climate. In addition, a decrease in biodiversity can reduce the availability of resources and services, such as pollination and nutrient cycling, that are essential for human life.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe how a military dictatorship changes a country.",
+    "output": "A military dictatorship can have grave implications on the population and result in a massive shift in the country's political and social structure. The military typically suspend civil laws and civil liberties, erode democratic institutions, and quash dissent, leading to a lack of meaningful public engagement in the decision-making process. This can create a culture of fear and a weakening of civil society, and often leaves citizens under the rule of a single authoritarian leader.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe how the internet of things could help people manage their energy consumption better.",
+    "output": "The Internet of Things (IoT) can provide people with better ways to manage their energy consumption. For example, it can enable people to connect their home\u2019s electrical appliances to the internet, allowing them to remotely control and monitor their energy usage and adjust their settings accordingly. IoT could also enable people to set schedules for the operation of electrical appliances, so that they can control the amount of energy used. It can also be used to monitor energy consumption in real-time, sending notifications when power consumption exceeds a certain threshold, helping people to reduce electricity costs.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Rewrite the following sentence to make it positive: \"I failed my test.\"\nI failed my test.",
+    "output": "I will strive to do better on my next test.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Calculate the average of the following numbers: 1, 3, 7",
+    "output": "The average of 1, 3 and 7 is 4.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a plausible title for a movie starring a character named Arjun.",
+    "output": "The Adventures of Arjun: A Journey of Discovery.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Estimate the following multiplication problem.\n27 x 4",
+    "output": "The estimated answer is 108.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a love letter to your partner.",
+    "output": "My dearest [Partner], \n\nI hope this letter finds you in the best of health and spirits. I wanted to take this opportunity to express the depths of my love for you. The truth is, I\u2019ve never felt this way before. You have made me a better person and I can\u2019t thank you enough for that. Without you, life would be boring and meaningless for me. \n\nYour grace and kindness warms my heart every day. You are my rock and I am forever grateful to have you as my partner. I never knew how beautiful life could be until I had you in it. With you, I feel like I can take on the world.\n\nI love you more than words can say and I just wanted you to know. \n\nSincerely,\n[Your name]",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Create an example of a memorable customer service experience.",
+    "output": "A memorable customer service experience can occur when an employee goes above and beyond to satisfy a customer's needs. For example, when a customer is searching for a specific item at a store, an employee finds the item for them and requests a staff member to gift-wrap it for free. The customer is grateful for the extra effort, resulting in a positive customer service experience.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "How can students stay motivated while learning?",
+    "output": "Students can stay motivated while learning by setting goals, breaking down tasks into smaller chunks, engaging in active learning, rewarding themselves for accomplishments, taking breaks, and by seeking out support from friends and family. Students should also take the time to reflect on their progress and plan for how to move forward. Finally, embracing challenges and striving for growth can also help to keep students motivated.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Create a grocery list for a vegan who wants to eat for a week",
+    "output": "1. Grains - quinoa, brown rice, oats \n2. Legumes - chickpeas, black beans, lentils \n3. Vegetables - kale, onions, peppers, mushrooms, garlic \n4. Fruits - apples, oranges, bananas, avocados \n5. Nuts and Seeds - almonds, walnuts, sunflower seeds, chia seeds \n6. Non-Dairy Milks - soymilk, almond milk, cashew milk \n7. Tofu\n8. Tempeh \n9. Vegan Protein Powder \n10. Nutritional Yeast",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Re-arrange the given words to form a meaningful sentence that describes the relationship among the given elements.\nteam/player/important/very",
+    "output": "The team player is very important.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Create a word collocation from the given words that would make sense in an article about financial regulations.\nStrict, Financial, Regulations",
+    "output": "Strict financial regulations.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "What data should I collect to calculate market share?",
+    "output": "To calculate market share, you should collect data about the total sales volume and total market size. This data can be obtained from the company's sales reports and industry reports.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Construct a bibliography of the book \"Alice's Adventures in Wonderland\"\nAlice's Adventures in Wonderland",
+    "output": "Bibliography:\n\nCarroll, Lewis. Alice's Adventures in Wonderland. Oxford University Press, 1865. \n\nFord, Clifford. Alice's Adventures in Wonderland: An Annotated Bibliography. Scarecrow Press, 1960.\n\nCrouch, Stephen. \"Alice's Adventures in Wonderland: Exploring the Twists and Turns of Alice's Adventures in Wonderland.\" Victorian Literature and Culture, vol. 29, no. 1, 2001, pp. 205\u2013222.\n\nDahl, Sophie. \"Alice's Adventures in Wonderland: Escapism Read and Re-Imagined.\" Children's Classics: A Reader's Guide, edited by Sophie Duncan, Bloomsbury Academic, 2012, pp. 97\u2013106.\n\nGoode, Sarah. \u201cAlice in Wonderland: Performance Theory and its Application.\u201d Performance in literature, edited by David Gere, Wilfrid Laurier University Press, 2006, pp. 27\u201343.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Identify the verb in the sentence and tell the past form of it.\nHe visits his cousin every weekend.",
+    "output": "Verb: visit, Past form: visited",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Suggest a fun activity you can do online.",
+    "output": "Try online escape rooms or join a virtual bar trivia night!",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Rewrite the given sentence to describe the same thing in a positive way.\nHe was unable to finish the task.",
+    "output": "He wasn't finished yet with the task.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Derive the equation for calculating compound interest.",
+    "output": "The equation for calculating compound interest is A = P(1+r/n)^nt, where A is the amount at the end of the investment period, P is the principal amount, r is the rate of interest, n is the number of times the interest is compounded in a year, and t is the number of years the investment is held for.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate five words related to technology.",
+    "output": "Computer, software, network, coding, robotics.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write an essay about the societal implications of artificial intelligence",
+    "output": "The increasing prevalence of artificial intelligence (AI) has caused a wave of discussions about its implications for our society. AI systems are becoming capable of carrying out tasks both quickly and accurately, and they have the potential to revolutionize the way humans interact with machines. However, while AI has the potential to provide immense benefits, the rise of AI is not without its risks. AI decision-making can often be biased and opaque, while more sophisticated AI models can lead to complex societal and ethical issues. In our increasingly digital world, it is important to be aware of the implications that AI and machine learning can have on our individual lives, as well as on society as a whole.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "How can we reduce the global plastic waste?",
+    "output": "One of the ways to reduce global plastic waste is through recycling. Educating people on the importance of recycling, making recycling easier and more accessible, and increasing the availability of recycled products can all help reduce global plastic waste.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "List five common types of trees.",
+    "output": "1. Oak \n2. Pine \n3. Maple \n4. Birch \n5. Elm",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Construct a potential attack vector that exploits the vulnerability.\nThe system is vulnerable to a SQL injection attack.",
+    "output": "A possible attack vector is to inject malicious SQL code into an input field in order to bypass authentication and gain access to the server's data. In particular, the attacker could try to inject code that allows them to run unauthorized queries or create new users with elevated privileges.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate an example of a school report card, including grades and comments.\nName: John Smith\nGrade: 10th",
+    "output": "John Smith is completing his 10th grade at Rolling Hills High School. His grades are as follows: \nEnglish: B+\nMath: A-\nHistory: B\nScience: C+\n\nJohn is a hardworking student who puts in effort in all his classes. He displays good understanding of the material, however he sometimes let his focus slip when there are more engaging topics. He is taking an active role in debates and discussions and responds to questions positively in class. John has the potential to achieve even better results if he is able to stay focused and organized.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Find the missing number in the following pattern: 12, 15, 18, 21, 24.",
+    "output": "The missing number is 27.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Output a summary of the following passage (max 30 words).\nDesign thinking is a creative problem-solving process. It helps people to understand the perspectives of users and empathize with them to address the challenge at hand.",
+    "output": "Design thinking is a process to solve problems creatively by understanding users' perspectives and empathizing with them.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "What are the steps involved in implementing a successful digital marketing strategy?",
+    "output": "A successful digital marketing strategy involves several steps. Firstly, you need to identify who your target audience is and what their needs are. Next, you need to research the different digital platforms available and select the ones that have the potential to reach your target audience. After that, you need to create relevant content for these platforms and focus on building an engaging presence. Finally, you need to track, measure, and analyze the results of your campaigns in order to refine your strategy.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Edit the following sentence: \"I took my dog for a running.\"\nI took my dog for a run.",
+    "output": "I took my dog out for a run.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a possible solution for reducing the dropout rate in high schools.",
+    "output": "One potential solution for reducing the dropout rate in high schools is to create opportunities for students to learn in more flexible, engaging ways through technology like virtual and augmented reality. This could help students gain a more personalized learning experience and keep them motivated and engaged in their studies. Additionally, more extensive social and emotional supports for students could be provided to help them better cope with the challenges of high school.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Suggest a way to improve an online e-commerce store.",
+    "output": "A way to improve an online e-commerce store is to add a live chat option. This allows customers to quickly and easily get answers to their questions and can help reduce the number of customer inquiries received. Additionally, offering live chat will help provide a better overall customer experience and can help increase sales.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Name something that is an example of the invention of a machine",
+    "output": "An example of the invention of a machine would be the world's first Programmable Logic Controller (PLC), invented in 1960 by Robert B. Jacob and Martin M. Clauser.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a list of 5 exercises to improve focus and concentration.",
+    "output": "1. Meditation: Meditation is a great way to hone in on your concentration skills. Taking the time to practice regularly can help you stay focused and improve your concentration.\n2. Brain Teasers: Doing brain teasers that require you to logically solve a problem can help to improve your problem-solving and analytical skills.\n3. Exercise: Regular exercise can help to improve your mental and physical fitness and in turn your ability to concentrate.\n4. Get Organized: Taking the time to organize your day-to-day activities and routines can help to reduce stress and help you stay focused on the task at hand.\n5. Take Breaks: Taking regular breaks throughout the day can help to clear your mind, reduce stress, and improve your concentration when you return to your tasks.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Summarize the following topic into 200 words or less.\nVaccines",
+    "output": "Vaccines are a critical tool in preventing and eradicating infectious diseases. Vaccines are made up of components of an attenuated virus or bacteria, which stimulate the body's immune system to develop antibodies that can fight these diseases. Vaccines are available for many different illnesses and can be administered to both adults and children. The efficacy of vaccines at preventing illnesses has been proven in numerous studies. Vaccines have the potential to save millions of lives and to protect individuals of all ages from serious and often fatal illnesses. Vaccination can also help to reduce the spread of disease by ensuring that most of the population is protected from infection. Vaccines are essential for protecting the health of the global population and have positively impacted human health for centuries.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Design an algorithm that sorts the following list of numbers in ascending order.\n[5, 2, 6, 1, 9]",
+    "output": "def bubbleSort(list): \n    n = len(list) \n\n    for i in range(n): \n   \n        for j in range(0, n-i-1): \n           \n            if list[j] > list[j+1] : \n                list[j], list[j+1] = list[j+1], list[j] \n  \nbubbleSort(list)",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Create a list of 5 compatible smartphones that a customer might be interested in based on their provided preferences.\nThe customer desires a smartphone with a good camera, long battery life, fast processor, and waterproof.",
+    "output": "Samsung Galaxy S20 Ultra 5G, Apple iPhone 11 Pro Max, Google Pixel 4 XL, OnePlus 8 Pro, Huawei P40 Pro.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a sentence that uses the phrase \u201cit was surprisingly\u201d",
+    "output": "It was surprisingly quiet in the room, despite the bustling activity that was going on outside.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a creative piece about a lifelong journey.",
+    "output": "The journey of life is a never-ending trip. Time moves on and so do we, learning and growing with every step we take. We encounter bumps along the way but remain resilient, refusing to give up on our dreams. We find solace in the knowledge that we are never really alone, surrounded by love and support from the people closest to us. Life is a continual adventure that teaches us more about ourselves and how to make the most of each moment.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Paraphrase the following sentence: \"I can't believe how quickly the year has flown by.\"",
+    "output": "It's remarkable how fast the year has gone by.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Given a table of employee salaries, rank them from highest to lowest.\nGiven table: employee_salary",
+    "output": "SELECT * FROM employee_salary ORDER BY salary DESC;",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Suggest a way to get started on a writing task.",
+    "output": "One way to get started on a writing task is to brainstorm and generate ideas. Jot down all of the ideas you have and try to lay out the structure of your piece. Then, pick the topics that you find most interesting and that you think are most crucial to include. Once you have a plan in place, it will be easier to start writing your actual project.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "List the five stages of the software development lifecycle",
+    "output": "The five stages of the software development lifecycle are: requirements gathering and analysis, design, development, testing, and deployment. These five stages are essential for producing quality software that meets user requirements in a timely manner.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Summarize the benefits of a plant-based diet in one sentence.",
+    "output": "A plant-based diet can provide numerous health benefits, such as improved heart health and reduced risk of some chronic diseases.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Provide a 3 sentence description of the following painting. Output your description.\nPainting of a giraffe standing in a grass savannah.",
+    "output": "This painting depicts a giraffe standing in a savannah of tall grass. The sun is setting in the background, casting a warm glow across the giraffe and the grass. The color palette of oranges and yellows gives the painting a peaceful, relaxed atmosphere.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe how voice recognition technology works.",
+    "output": "Voice recognition technology uses a combination of software, sensors and microphones to convert speech into text. It works by first capturing a person's voice, then breaking it up into chunks of sounds called phonemes. The individual phonemes are then compared to stored recordings called templates in order to determine what words the person is saying. The technology can also take into account factors such as accent, speed, and tone to create an accurate transcription. Additionally, voice recognition technology is constantly learning and adapting to different environments and dialects.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Explain the differences between Darwin and Lamarck's theories of evolution",
+    "output": "Darwin's Theory of Evolution, also known as \"natural selection,\" proposes that beneficial traits are passed down to successive generations through genetic mutation, while disadvantageous traits are eliminated through competition. Lamarck's Theory of Evolution proposes that acquired traits are passed down to successive generations as a result of an organism's efforts to adapt to its environment. Darwin's theory is supported by scientific evidence, while Lamarck's theory has been largely discredited.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Create a scenario involving four people, Bob, Jack, Sarah, and Angela, and explain why they are not speaking to each other.",
+    "output": "Bob, Jack, Sarah and Angela were once good friends, but something had caused them to drift apart. Bob had said something hurtful to Jack which had angered Sarah, and Jack was too embarrassed to apologize. Sarah, in turn, had lashed out at Angela in frustration, who was resentful and refused to forgive her. As the situation deteriorated, the four of them stopped speaking to each other.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "From the following list, select three keywords for the given text. Possible keywords include: Water, Disease, Climate, Policy, Pollution, Restrictions,\nDiseases caused by water pollution have worsened in many countries due to extreme climate conditions and the lack of effective policies.",
+    "output": "Water, Disease, Climate, Policy.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a review for a water bottle that does not keep drinks cold.",
+    "output": "This water bottle does not live up to its name. It does not keep drinks cold for long and I am left feeling disappointed. I would definitely not recommend this product to my friends.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe the melody of a love song.",
+    "output": "The melody of the love song is gentle and romantic, featuring soft, melodic chords that create a warm, inviting atmosphere. Strings provide a delicate yet passionate accompaniment while a soft piano provides the perfect backdrop for tender lyrics.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Find the best joke in the paragraph, output the sentence index.\n(1) What did the fish say when he hit the wall? (2) What do you call a snowman party? (3)I have an awesome joke about a clock, but it's not all that timely. (4)Why did the bee go to the doctor?",
+    "output": "2",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Given two arrays, write a program to return the elements that are present in both the arrays.\nArray 1 = [1, 2, 3, 4, 5]\nArray 2 = [3, 4, 5, 6, 7]",
+    "output": "def find_common_elements(arr1, arr2):\n    res = []\n    for i in arr1:\n        if i in arr2:\n            res.append(i)\n    return res",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Add one more ingredient to the following dish.\nIngredients: bacon, potatoes, onion",
+    "output": "Ingredients: bacon, potatoes, onion, bell pepper.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Describe the main features of a Cloud-based Infrastructure.",
+    "output": "A cloud-based infrastructure is a network of servers hosted on the cloud that can be used to store and access data and applications. It allows for scalability, fast deployment of resources, cost savings, and flexibility in resource management. Additionally, cloud-based infrastructure offers high security, increased reliability, and easy access to data.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Change all the adjectives to past-tense verbs in the following sentence.\nThe pretty girl was walking down the street.",
+    "output": "The prettied girl was walking down the street.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Suggest a creative way to show appreciation to a good friend.",
+    "output": "A creative way to show appreciation to a good friend is to make them a personalized gift. The gift can be tailored to something they will enjoy and that reflects how much they mean to you. This can include anything from a handmade card, a framed photo of a shared moment, a book with a personalized message, or a handmade item that reflects their interests. It can even be something with a larger emotional significance, like a symbolic token or a box with a precise selection of items special to your friend.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Identify the type of device used to produce the following sound.\nMeow",
+    "output": "Mouth",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Suggest a cool gadget to buy as a gift",
+    "output": "A smart watch is a cool gadget to buy as a gift. Smart watches come in all kinds of shapes, sizes, and styles, offering everything from fitness tracking to music streaming and beyond.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Is the sentence a valid mathematical expression?\nA + B < C",
+    "output": "Yes",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Classify the following object as either a star, a planet, or an asteroid:\nJupiter",
+    "output": "Planet",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate an idea for the following opening line of a story.\nIt was a strange sight when they found him.",
+    "output": "He was standing in the middle of a deserted street, alone, with his arms spread open as if he was waiting for someone or something to come after him. His clothes were tattered and his face was twisted in a grimace of confusion. It was obvious he had been there for a while, and it made the small group of onlookers uneasy. They had no idea who this strange man was, or what he was waiting for. But one thing was for sure: something strange was about to happen.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Come up with three positive adjectives for the following animal\nGiraffe",
+    "output": "Giraffe: majestic, graceful, curious.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Given three numbers, find the greatest common divisor (gcd) of the three numbers.",
+    "output": "\"\"\"\nGiven three numbers, find the greatest common divisor (gcd) of the three numbers\n\"\"\"\n\n# Find the greatest common divisor (GCD) of two numbers\ndef find_gcd(a, b): \n    while b > 0: \n        a, b = b, a % b \n  \n    return a \n\n# Given three numbers, find the greatest common divisor (GCD) of the three numbers\ndef find_gcd_of_three_numbers(a, b, c): \n    gcd_a_b = find_gcd(a, b) \n    gcd_b_c = find_gcd(b, c) \n    gcd_a_c = find_gcd(a, c) \n  \n    gcd = find_gcd(gcd_a_b, gcd_b_c) \n    gcd = find_gcd(gcd, gcd_a_c) \n  \n    return gcd  \n\nif __name__ == '__main__':\n    print(\"GCD of 3 numbers is: \", end=\"\") \n    print(find_gcd_of_three_numbers(18, 24, 30))",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a rule that can be applied to the given dataset.\nDATASET:  Height, Weight\nRow 1: 170 cm, 70 kg\nRow 2: 180 cm, 80 kg",
+    "output": "The rule generated is: For every 10 cm increase in height, there is an 8 kg increase in weight.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Categorize the following words into different groups of three.\nCredible, Phantom, Accolade",
+    "output": "Credible, Phantom, Accolade can be categorized into words related to reputation (Credible, Accolade), words related to supernatural (Phantom), and words with positive connotations (Credible, Accolade).",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Choose the correct option out of the given options that best fits the sentence.\nThe best way to learn a language is by \nA. Writing in it \nB. Studying grammar\nC. Practicing with native speakers\nD. Listening to music",
+    "output": "C. Practicing with native speakers",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a plausible list of five items that might be packed for a day-long hike",
+    "output": "A list of five items that might be packed for a day-long hike include: water bottle, snacks (e.g. trail mix, protein bars), first aid kit, sunscreen, and a compass.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Recommend a solution to reduce pollution from vehicles",
+    "output": "One of the most effective solutions to reduce air pollution from vehicles is to promote the use of alternative modes of transportation, such as public transportation and cycling. Governments can subsidize public transportation, install bike lanes, and encourage people to walk and bike based on their needs. In addition, governments should provide incentives to switch to low-emission vehicles, such as electric or hybrid cars, and encourage the use of clean fuels, such as compressed natural gas or biodiesel. Car sharing, as well as driverless technologies, will also help reduce the number of vehicles on the road, resulting in less pollution.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "What is the result of the input 2 + 10 * 5?",
+    "output": "The result of 2 + 10 * 5 is 52.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Imagine a plausible alternate ending to this story.\nThe journey had tested them both, but in the end, the knight and the dragon came to an agreement. The knight had saved the dragon's kin and the dragon had granted the knight his freedom from his corrupt lord.",
+    "output": "The knight and the dragon took their newfound friendship one step further. Realizing that they both had a common goal in defeating the corrupt lord's regime, they decided to join forces. With the knight's courage and the dragon's strength, they managed to take down the lord and install a new regime of peace and justice. The knight and the dragon were celebrated as heroes, and their bond had become a symbol of the power of friendship and working together towards a common goal.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Given the word, list 3 synonyms.\nbig",
+    "output": "large, vast, immense",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Create a program to implement the \"bubble sort\" algorithm.",
+    "output": "// Program to implement the bubble sort algorithm \n#include <stdio.h> \n\nvoid bubbleSort(int arr[], int n) \n{ \n\tint i, j; \n\tfor (i = 0; i < n-1; i++)\t \n\t\n\t// Last i elements are already in place \n\tfor (j = 0; j < n-i-1; j++) \n\t\tif (arr[j] > arr[j+1]) \n\t\t\tswap(&arr[j], &arr[j+1]); \n} \n\nvoid swap(int *a, int *b) \n{ \n\tint temp = *a; \n\t*a = *b; \n\t*b = temp; \n} \n\n// Driver program \nint main() \n{ \n\tint arr[] = {64, 34, 25, 12, 22, 11, 90}; \n\tint n = sizeof(arr)/sizeof(arr[0]); \n\tbubbleSort(arr, n); \n\treturn 0; \n}",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Automatically rewrite the following sentence in past tense.\nJack writes a letter",
+    "output": "Jack wrote a letter.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Formulate a query to find all the documents containing the term public health.",
+    "output": "SELECT * FROM Documents WHERE document_text LIKE '%public health%';",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Name one American invention of the 1800s.",
+    "output": "The cotton gin was invented in the United States in the year 1793 by Eli Whitney. It mechanized the process of separating seeds, husks, and fibers from cotton, thus dramatically speeding up the production of cotton fiber. This invention revolutionized the cotton industry and was one of the key factors in the development of the southern United States during the 1800s.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a poem that includes the given rhymes and a theme of world peace.\nEndings: Day, Stay",
+    "output": "The world is ever so slowly,\nFilled with strife and discord all day.\nWe see war and violence grown,\nThoughts of peace seem so far away.\n\nBut let us not lose hope in this,\nResolve to make a better way.\nLet's start by taking a stand,\nAnd seeing this through to the day.\n\nLet's bridge our differences from here,\nIn efforts so we can unite.\nLet's mold our every relations,\nSeek forgiveness and end the fight.\n\nIn truth and hope shall we stay,\nBuilding peace for us all.\nLet us all make sure this day,\nNot just by us but through us all.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Train a natural language model to predict the next word given a context.",
+    "output": "Creating a Natural Language Model for predicting the next word given a context involves a few stages:\n\n1. Preprocessing - Here, text is split into sentences, tokenized, punctuation is removed and stopwords are removed from the text.\n\n2. Embeddings - Here, words are represented by dense vectors of real numbers and words with similar meanings have a similar representation.\n\n3. Training - Here, the model is trained using supervised learning, where the machine is shown examples of previous texts to learn the patterns. The model predicts the next word in the sequence once trained.\n\n4. Evaluation - The model is evaluated on unseen data to ensure it performs well on the task.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Given a movie, predict its genre.\nAvengers: Endgame",
+    "output": "The genre of Avengers: Endgame is action-adventure.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a tweet summarizing the research paper \"The Impact of Climate Change on the Migration Patterns of Arctic Birds\".",
+    "output": "Recent research has shown that Arctic birds are changing their migration patterns due to rising global temperatures and the effects of climate change. #climatechange #birdmigration #arcticbirds",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Convert the following code written in JavaScript to Python.\nvar sum = 0;\nfor (var i = 1; i < 10; i++) {\n  if ( i % 2 === 0 ) {\n    sum += i;\n  }\n}",
+    "output": "sum = 0\nfor i in range(1,10):\n    if i % 2 == 0:\n        sum += i",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "List 4 uses for Machine Learning",
+    "output": "1. Image Recognition \u2013 Identifying objects in an image.\n2. Natural Language Processing \u2013 Understanding and generating language.\n3. Machine Translation \u2013 Translating text from one language to another.\n4. Speech Recognition \u2013 Converting spoken language into text.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Assess the validity of the following statement: \"Computers are more efficient than humans for data entry tasks.\"",
+    "output": "This statement is valid, as computers are better suited to quickly and accurately enter large amounts of data. Computers are able to process and store data faster, with fewer errors, than humans. In addition, computers are better than humans for data entry tasks which require tedious and repetitive tasks. Humans are better suited for data entry tasks which require decision making, such as when dealing with incomplete or ambiguous data.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Compute the difference of 2 numbers.\n32 and 11",
+    "output": "21",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "What is the major focus of this article?\nThe Impact of Instagram on Mental Health\n\nInstagram is one of the most popular social media platforms in the world, with over one billion active users. Although it has the potential to be a great source of enjoyment and connection, research has found that it can also have a negative impact on mental health. This is due to the emphasis on physical image and perfection often present on the platform, leading to increased levels of body dissatisfaction, anxiety, and depression.",
+    "output": "The major focus of this article is the impact of Instagram on mental health. Specifically, it examines how its emphasis on physical image and perfection can lead to increased levels of body dissatisfaction, anxiety, and depression.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Sort the given list into ascending order.\n4, 32, 6, 87",
+    "output": "The sorted list in ascending order is: 4, 6, 32, 87.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Name three countries with the highest GDP per capita.\n<no input>",
+    "output": "The three countries with the highest GDP per capita are Liechtenstein, Switzerland, and Qatar.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Construct a sentence using the words \"backbone,\" \"pillar,\" and \"foundation.\"",
+    "output": "The backbone, pillar, and foundation of the organization's success are trust, loyalty, and hardwork.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Generate a list of items to pack for a night camping trip.",
+    "output": "Here is a list of items you should pack for a night camping trip:\n- Tent \n- Sleeping bag \n- Warm clothes for sleeping \n- A hat and gloves \n- A first-aid kit \n- Flashlight and/or lantern \n- Bug spray \n- Sunscreen \n- Water bottles \n- Food and snacks \n- Matches \n- Firewood \n- Cooking utensils \n- A map of the area \n- A compass \n- A portable charger \n- Whistle \n- Binoculars \n- A pocketknife",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Write a sentence using these two words: \"octogenarian\" and \"pilgrimage\".",
+    "output": "The octogenarian went on a pilgrimage to visit the holy sites of his faith.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Reformulate the sentence to use an adjective in its place.\nThe clothing was extremely expensive.",
+    "output": "The clothing was exorbitantly priced.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Provide an example of a healthy snack that is 500 calories or under.",
+    "output": "One example of a healthy snack that is 500 calories or under is an apple with 1 oz of nut butter and one slice of whole wheat toast. The snack would provide fiber and healthy fats, and still come in at around 400 to 450 calories.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Replace the words in bold with synonms\nShe arrived late for the meeting and it made me apprehensive.",
+    "output": "She arrived tardy for the meeting and it made me uneasy.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Evaluate the effectiveness of a local charity program.",
+    "output": "To evaluate the effectiveness of a local charity program, it is important to consider three main factors: goals, implementation, and outcomes. Goals are the intended objectives of the program - what the program hopes to achieve. Implementation is the process by which the program is put into action - what strategies are used and how successful they are. And outcomes measure the ultimate results of the program - whether or not the goals were met and what impact the program had. With this evaluation, it is possible to determine if the charity program was successful and identify areas for improvement.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Find the hidden meaning in the following proverb\nA stitch in time saves nine.",
+    "output": "This proverb means that prevention is better than cure, and that it is better to take action now rather than waiting for the problem to get worse. Taking the necessary steps early can save time, stress, and money in the long run.",
+    "generator": "alpaca"
+  },
+  {
+    "dataset": "alpaca",
+    "instruction": "Using two given words, create a meaningful sentence.\nlibrary, snow",
+    "output": "The library was silent except for the whisper of snowflakes falling outside.",
+    "generator": "alpaca"
+  }
+]
